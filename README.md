@@ -44,3 +44,4 @@ python egitim.py
 
 # 3. Eğitim tamamlandıktan sonra test ve tahmin için:
 python test.py
+#Kodun source satırında test etmek istediğiniz fotoğrafın adını ekleyerek test edebilirsiniz.
