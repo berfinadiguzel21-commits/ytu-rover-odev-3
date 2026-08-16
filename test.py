@@ -4,7 +4,7 @@ import cv2
 
 model = YOLO("runs/detect/train/weights/best.pt")
 
-results = model.predict(source="C:\data_set\Photo-6.png", save=True)
+results = model.predict(source="Photo-6.png", save=True)
 
 cizilmis_resim = results[0].plot()
 
