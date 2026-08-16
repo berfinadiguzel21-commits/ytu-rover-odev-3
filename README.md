@@ -33,15 +33,14 @@ Eğitim sonucunda elde edilen en iyi model ağırlıkları (`best.pt`) kullanıl
 ![Test 6](Photo-6.jpg)
 
 ## Projeyi Çalıştırma
-Projeyi kendi bilgisayarınızda denemek için aşağıdaki adımları izleyebilirsiniz:
+Projeyi kendi ortamınızda çalıştırmak için gerekli kütüphaneleri kurduktan sonra aşağıdaki adımları takip edebilirsiniz:
 
 ```bash
-# Repository'yi bilgisayarınıza indirin
-git clone [https://github.com/berfinadiguzel21/ytu_rover_odev_3.git](https://github.com/berfinadiguzel21/ytu_rover_odev_3.git)
-cd ytu_rover_odev_3
-
-# Gerekli kütüphaneyi kurun
+# 1. Gerekli kütüphaneleri yükleyin
 pip install ultralytics
 
-# Modeli test fotoğrafları üzerinde çalıştırın
-yolo task=detect mode=predict model=best.pt source=photo-1.jpg conf=0.50
+# 2. Modeli eğitmek için:
+python egitim.py
+
+# 3. Eğitim tamamlandıktan sonra test ve tahmin için:
+python test.py
