@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['stop']
+
+roboflow:
+  workspace: uthm-vlefj
+  project: stop-sign-h1bmb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uthm-vlefj/stop-sign-h1bmb/dataset/1
