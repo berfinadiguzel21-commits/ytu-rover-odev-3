@@ -21,7 +21,7 @@ Grafikler incelendiğinde; eğitim (train) ve doğrulama (val) aşamalarındaki 
 ## Test  Aşaması
 Eğitim sonucunda elde edilen en iyi model ağırlıkları (`best.pt`) kullanılarak, modelin daha önce görmediği fotoğraflar üzerinde test işlemi yapılmıştır. Hatalı çizimleri önlemek için şu filtreler kullanılmıştır:
 - **Confidence Threshold (conf): 0.50**
-- **IoU Threshold (NMS):**
+
 
 **Test Çıktıları:**
 
